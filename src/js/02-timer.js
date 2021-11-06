@@ -26,7 +26,6 @@ const options = {
       refs.btnStart.setAttribute('disabled', '');
       return;
     }
-    Notify.info('Click START to run the timer.');
     refs.btnStart.removeAttribute('disabled');
   },
 };
