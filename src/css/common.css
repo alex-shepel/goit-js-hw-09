@@ -35,3 +35,18 @@ img {
   display: flex;
   flex-direction: column;
 }
+
+.form {
+  display: flex;
+  gap: 30px;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.form > button {
+  align-self: flex-end;
+}
